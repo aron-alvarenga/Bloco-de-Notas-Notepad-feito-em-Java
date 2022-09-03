@@ -50,6 +50,7 @@ public class Notepad extends JFrame implements ActionListener {
 		this.setSize(600, 600);
 		this.setLayout(new FlowLayout());
 		this.setLocationRelativeTo(null);
+		this.setResizable(false);
 		
 		textArea = new JTextArea();
 		textArea.setLineWrap(true);
